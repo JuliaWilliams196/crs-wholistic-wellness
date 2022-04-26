@@ -4,9 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Sacramento&display=swap" rel="stylesheet">
     <title>CRS Wholistic Wellness</title>
 </head>
 
@@ -29,17 +32,112 @@
             </ul>
         </div>
     </header>
-</body>
-<main>
-    <div class="about-section">
-        <h2 class="about-me">About Me</h2>
-    </div>
-    <div class="services-section">
-<h2 class="about-me">Services</h2>
-    </div>
-    <div class="contact-section">
 
-    </div>
-</main>
+    <main>
+        <div class="about-section">
+            <h2 class="about-me">About Me</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a finibus elit. Vestibulum nec elit
+                pulvinar lacus porttitor porttitor vel quis augue. Quisque sed tortor pretium, iaculis velit vel, mattis
+                odio. Proin pretium scelerisque iaculis. Praesent dignissim feugiat nulla non feugiat. In varius sapien
+                eu neque convallis vestibulum. Suspendisse ac eleifend eros. Cras est est, molestie in ullamcorper ac,
+                ullamcorper nec metus.
+            </p>
+        </div>
+        <div class="services-section">
+            <h2 class="about-me">Services</h2>
+            <img class="icon" src="./img/users-solid.png" alt="people-icon">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a finibus elit. Vestibulum nec elit
+                pulvinar lacus porttitor porttitor vel quis augue.</p>
+            <h4>$0</h4>
+            <img class="icon" src="img/blood-droplet.png" alt="water droplet">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a finibus elit. Vestibulum nec elit
+                pulvinar lacus porttitor porttitor vel quis augue.</p>
+            <h4>$0</h4>
+            <img class="icon" src="img/mortar-pestle-solid.png" alt=" mortar and pestle">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a finibus elit. Vestibulum nec elit
+                pulvinar lacus porttitor porttitor vel quis augue.</p>
+            <h4>$0</h4>
+            <img class="icon" src="img/cart-shopping-solid.png" alt="shopping cart">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a finibus elit. Vestibulum nec elit
+                pulvinar lacus porttitor porttitor vel quis augue.</p>
+            <h4>$0</h4>
+        </div>
+        <footer class="contact-section">
+            <h2 class="contact-me">Contact</h2>
+            <address>
+                <div class="features-description">
+                    <p class="footer-info-phone"><a class="footer-link"
+                            href="https://www.facebook.com/dianagrantnutritionist" target="_blank"><img
+                                class="icon-footer" src="img/facebook-brands.png" alt="facebook-link"><br>Check
+                            out
+                            my Facebook</a>
+                    </p>
+
+                    <p class="footer-info-phone"><a class="footer-link" href="mailto:dianagrantnutrition@gmail.com"><img
+                                class="icon-footer" src="img/envelope-open-text-solid.png"
+                                alt="email-link"><br>dianagrantnutrition@gmail.com</a>
+                    </p>
+                    <br>
+                    <img class="icon-footer" src="img/phone-solid.png" alt="location">
+                    <br>
+                    <p class="footer-info-phone">437-216-5238</p>
+                    <br>
+                    <img class="icon-footer" src="img/location-dot-solid.png" alt="location">
+                    <p class="footer-info">Office Location:
+                        200 Finch Ave. West
+                        Suite #108,
+                        Toronto, ON M2R 3W4 </p>
+                    <p class="footer-info">
+                        My office is inside of Finch PhysioCare Clinic.
+                    </p>
+                    <p class="footer-info">Nearest major intersection is Bathurst and Finch.
+                        Enter through the front entrance on Finch Ave.
+                    <ul>
+                        <li class="footer-info-list">Parking: Free parking is available behind the building.</li>
+                        <br>
+                        <li class="footer-info-list">TTC: Take the 36 Finch West bus from Finch Station. Get off at
+                            Grantbrook St.
+                            The building will be
+                            right
+                            there.</li>
+                    </ul>
+                    </p>
+                </div>
+                <br>
+                <br>
+                <iframe class="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2880.828113809355!2d-79.43429028518277!3d43.776426752472815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2db7d260b971%3A0xd4c723513ff7ed79!2sDiana%20Grant%2C%20Holistic%20Nutritionist!5e0!3m2!1sen!2sca!4v1646244862702!5m2!1sen!2sca"
+                    style="
+                    display: block;
+                    margin: 0 auto;
+                    width: 200px;
+                        height: 200px;
+                          border-radius: 20%;
+                        border-width: thick;
+                        border-style: solid;
+                        border-color: #ffffff;
+                        " allowfullscreen="" loading="lazy"></iframe>
+                <p id="copyright">&copy; CRS Wholistic Wellness 2022</p>
+                <p class="copyright">Designed & Coded by Dragonsnap Web Development</p>
+            </address>
+        </footer>
+    </main>
+</body>
+<script>
+    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
 
 </html>
