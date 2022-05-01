@@ -104,8 +104,14 @@ html {
   width: 100%;
 }
 header {
+  background-image: url("../img/sample-logo-with-text.png");
+  background-size: contain;
+  background-repeat: no-repeat;
   width: 100%;
-  height: 200px;
+  height: 250px;
+  background-position: center;
+  margin: auto;
+  background-color: white;
 }
 body {
   font-size: 1em;
@@ -136,14 +142,21 @@ h2 {
   text-align: center;
 }
 
-h3,
-h4 {
-  font-family: "Monserrat", sans-serif;
+h3 {
+  font-family: "PT Serif", serif;
   font-size: 1.5em;
   line-height: 2;
   margin: 20px 0;
-  color: #667b68;
+  color: #214a5c;
   text-align: center;
+}
+h4 {
+  font-family: "PT Serif", serif;
+  font-size: 1.5em;
+  line-height: 2;
+  color: #214a5c;
+  text-align: center;
+  margin: 0;
 }
 
 p {
@@ -255,13 +268,13 @@ p {
   background-color: #fcf5e7;
 } /**END OF NAVBAR**/
 /*ABOUT SECTION*/
-.about-section {
+#about-section {
   background-color: #fcf5e7;
   width: 100%;
   height: 25%;
 }
 .profile-picture {
-  border-radius: 100%;
+  border-radius: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -298,18 +311,20 @@ p {
   color: #667b68;
 }
 /*SERVICES SECTION*/
-.services-section {
+#services-section {
+  padding: 0 0 20px 0;
   width: 100%;
   height: 30%;
 }
 
 .services-section h3 {
-  font-family: "PT Serif",serif;
+  font-family: "PT Serif", serif;
   text-align: center;
   color: #214a5c;
   margin: 5px 20px 0;
 }
 .services-section h4 {
+  font-family: "PT Serif", sans-serif;
   display: block;
   list-style: none;
   color: #214a5c;
@@ -423,7 +438,7 @@ footer {
   height: 100%;
 }
 
-.contact-section span {
+#contact-section span {
   padding: 0 0 50px 0;
 }
 .contact-me {
@@ -567,8 +582,6 @@ footer {
     align-items: center;
     margin: auto;
     height: 100px;
-    float: left;
-    padding: 0 10px 0 30px;
   }
   .right-icon {
     display: flex;
@@ -576,8 +589,6 @@ footer {
     align-items: center;
     margin: auto;
     height: 100px;
-    float: right;
-    padding: 0 30px 0 10px;
   }
   @media only screen and (min-width: 1000px) {
     /*Desktop styles here*/
